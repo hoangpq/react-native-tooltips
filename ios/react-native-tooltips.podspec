@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.description  = <<-DESC
                       RNTooltips for React Native
                    DESC
-  s.homepage     = ""
+  s.homepage     = "https://github.com/author/RNTooltips.git"
   s.license      = package['license']
   # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
   s.author             = { "author" => "author@domain.cn" }
@@ -21,5 +21,4 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   s.dependency "React"
   #s.dependency "others"
-
 end
